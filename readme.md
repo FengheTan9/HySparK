@@ -125,12 +125,11 @@ The content should be like below
 {
 	"training": [
         {
-    		"image": "./Dataset060_TotalSegmentator/imagesTr/xxx_0000.nii.gz"
+            "image": "./Dataset060_TotalSegmentator/imagesTr/xxx_0000.nii.gz"
         },
         {
             "image": "./Dataset006_FLARE2022/imagesTr/xxx_0000.nii.gz"
         },
-        ...
     ]
 }
 
@@ -143,14 +142,14 @@ The content should be like below
 Run training on multi-GPU :
 
 ```sh
-# A example of training on 4 GPUs with DDP
+# An example of training on 4 GPUs with DDP
 torchrun --nproc_per_node=4 --nnodes=1 --node_rank=0 --master_addr=localhost --master_port=12351 main.py --exp_name=debug --data_path=./data  --model=hyspark --bs=12  --exp_dir=debug_hyspark_ddp_4
 ```
 
 Run training on single-GPU :
 
 ```sh
-# A example of training on 4 GPUs with DDP
+# An example of training on 4 GPUs with DDP
 python main.py --exp_name=debug --data_path=./data --model=hyspark --bs=4 --exp_dir=debug_hyspark
 ```
 
@@ -161,23 +160,28 @@ python main.py --exp_name=debug --data_path=./data --model=hyspark --bs=4 --exp_
 Load pre-training weights :
 
 ```python
-# A example of Fine-tuning on BTCV (num_classes=14)
+# An example of Fine-tuning on BTCV (num_classes=14)
 from models.network.hyspark_model import build_hybird
+
 model = build_hybird(in_channel=1, n_classes=14, img_size=96).cuda()
-model_dict = torch.load("./[your_ckpt_path]/hybird_ct_pretrained_timm_style_mask75.pth")        
+
+model_dict = torch.load("./[your_ckpt_path]/hybird_ct_pretrained_timm_style_mask75.pth")   
+
 if model.load_state_dict(model_dict, strict=False):
     print("HySpark Use pretrained weights hybird_ct_pretrained_timm_style_mask75.pth successfully !")
 ```
 
-Downstream pipeline can be refered to [UNETR]([research-contributions/UNETR/BTCV at main · Project-MONAI/research-contributions (github.com)](https://github.com/Project-MONAI/research-contributions/tree/main/UNETR/BTCV))
+
+
+The downstream pipeline can be referred to [UNETR]([research-contributions/UNETR/BTCV at main · Project-MONAI/research-contributions (github.com)](https://github.com/Project-MONAI/research-contributions/tree/main/UNETR/BTCV))
 
 
 
 ## Acknowledgements:
 
-This code-base uses helper functions from [SparK](https://github.com/keyu-tian/SparK).
+This code base uses helper functions from [SparK](https://github.com/keyu-tian/SparK).
 
-
+AnAn
 
 ## Citation
 
