@@ -181,7 +181,7 @@ The downstream pipeline can be referred to [UNETR](https://github.com/Project-MO
 
 This code base uses helper functions from [SparK](https://github.com/keyu-tian/SparK).
 
-AnAn
+
 
 ## Citation
 
