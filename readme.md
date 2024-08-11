@@ -123,7 +123,7 @@ The content should be like below
 
 ```json
 {
-	"training": [
+    "training": [
         {
             "image": "./Dataset060_TotalSegmentator/imagesTr/xxx_0000.nii.gz"
         },
@@ -168,12 +168,12 @@ model = build_hybird(in_channel=1, n_classes=14, img_size=96).cuda()
 model_dict = torch.load("./[your_ckpt_path]/hybird_ct_pretrained_timm_style_mask75.pth")   
 
 if model.load_state_dict(model_dict, strict=False):
-    print("HySpark Use pretrained weights hybird_ct_pretrained_timm_style_mask75.pth successfully !")
+    print("HySpark use pretrained weights successfully !")
 ```
 
 
 
-The downstream pipeline can be referred to [UNETR]([research-contributions/UNETR/BTCV at main · Project-MONAI/research-contributions (github.com)](https://github.com/Project-MONAI/research-contributions/tree/main/UNETR/BTCV))
+The downstream pipeline can be referred to [UNETR](https://github.com/Project-MONAI/research-contributions/tree/main/UNETR/BTCV))
 
 
 
