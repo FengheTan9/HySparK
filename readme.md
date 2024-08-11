@@ -6,7 +6,7 @@
 <!---->
 </p> 
 
-![HySparK](.\imgs\HySparK.gif)
+![HySparK](https://github.com/FengheTan9/HySparK/blob/main/imgs/HySparK.gif)
 
 
 <div align="center">
@@ -46,10 +46,10 @@
     <a href='https://english.ucas.ac.cn/' target='_blank'>Guangdong Provincial Key Laboratory of Artificial Intelligence in Medical Image Analysis and Application</a>&emsp;
     </br>
 </div>
+<br>
+<br>
 
-
-
-​                                                                                 [![arXiv](https://img.shields.io/badge/arxiv-2311.10121-b31b1b)](https://arxiv.org/pdf/2311.10121.pdf)   [![github](https://img.shields.io/badge/github-HySparK-black)]([FengheTan9/HySparK (github.com)](https://github.com/FengheTan9/HySparK))    <a href="#LICENSE--citation"><img alt="License: Apache2.0" src="https://img.shields.io/badge/LICENSE-Apache%202.0-blue.svg"/></a>
+​                                                                                 [![arXiv](https://img.shields.io/badge/arxiv-2311.10121-b31b1b)](https://arxiv.org/pdf/2311.10121.pdf)   [![github](https://img.shields.io/badge/github-HySparK-black)](https://github.com/FengheTan9/HySparK)    <a href="#LICENSE--citation"><img alt="License: Apache2.0" src="https://img.shields.io/badge/LICENSE-Apache%202.0-blue.svg"/></a>
 
 
 
