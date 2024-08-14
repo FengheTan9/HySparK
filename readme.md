@@ -49,7 +49,7 @@
 <br>
 <br>
 
-​                                                                                 [![arXiv](https://img.shields.io/badge/arxiv-2311.10121-b31b1b)](https://arxiv.org/pdf/2311.10121.pdf)   [![github](https://img.shields.io/badge/github-HySparK-black)](https://github.com/FengheTan9/HySparK)    <a href="#LICENSE--citation"><img alt="License: Apache2.0" src="https://img.shields.io/badge/LICENSE-Apache%202.0-blue.svg"/></a>
+​                                              [![arXiv](https://img.shields.io/badge/arxiv-2408.05815-b31b1b)](https://arxiv.org/pdf/2408.05815v1)   [![github](https://img.shields.io/badge/github-HySparK-black)](https://github.com/FengheTan9/HySparK)    <a href="#LICENSE--citation"><img alt="License: Apache2.0" src="https://img.shields.io/badge/LICENSE-Apache%202.0-blue.svg"/></a>
 
 
 
@@ -149,7 +149,7 @@ torchrun --nproc_per_node=4 --nnodes=1 --node_rank=0 --master_addr=localhost --m
 Run training on single-GPU :
 
 ```sh
-# An example of training on 4 GPUs with DDP
+# An example of training on single GPU
 python main.py --exp_name=debug --data_path=./data --model=hyspark --bs=4 --exp_dir=debug_hyspark
 ```
 
@@ -173,7 +173,7 @@ if model.load_state_dict(model_dict, strict=False):
 
 
 
-The downstream pipeline can be referred to [UNETR](https://github.com/Project-MONAI/research-contributions/tree/main/UNETR/BTCV))
+The downstream pipeline can be referred to [UNETR](https://github.com/Project-MONAI/research-contributions/tree/main/UNETR/BTCV)
 
 
 
@@ -188,10 +188,16 @@ This code base uses helper functions from [SparK](https://github.com/keyu-tian/S
 If the code, paper and weights help your research, please cite:
 
 ```
-TODO
+@misc{tang2024hysparkhybridsparsemasking,
+      title={HySparK: Hybrid Sparse Masking for Large Scale Medical Image Pre-Training}, 
+      author={Fenghe Tang and Ronghao Xu and Qingsong Yao and Xueming Fu and Quan Quan and Heqin Zhu and Zaiyi Liu and S. Kevin Zhou},
+      year={2024},
+      eprint={2408.05815},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2408.05815}, 
+}
 ```
-
-
 
 ## License
 
