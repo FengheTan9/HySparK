@@ -64,7 +64,7 @@
 ## TODOs
 
 - [x] Paper released
-- [ ] Code released
+- [x] Code released
 - [ ] Weight released
 
 
