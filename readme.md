@@ -186,6 +186,16 @@ This code base uses helper functions from [SparK](https://github.com/keyu-tian/S
 ## Citation
 
 If the code, paper and weights help your research, please cite:
+```
+@inproceedings{tang2024hyspark,
+  title={HySparK: Hybrid Sparse Masking for Large Scale Medical Image Pre-training},
+  author={Tang, Fenghe and Xu, Ronghao and Yao, Qingsong and Fu, Xueming and Quan, Quan and Zhu, Heqin and Liu, Zaiyi and Zhou, S Kevin},
+  booktitle={International Conference on Medical Image Computing and Computer-Assisted Intervention},
+  pages={330--340},
+  year={2024},
+  organization={Springer}
+}
+```
 
 ```
 @misc{tang2024hysparkhybridsparsemasking,
