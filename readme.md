@@ -69,6 +69,18 @@
 
 
 
+### Models
+
+#### Pre-trained weights
+
+| Name      | Pre-trained data scale | Weights                                                      |
+| --------- | ---------------------- | ------------------------------------------------------------ |
+| HySparK-B | 6.8k CT Scan           | [hybird_ct_pretrained_timm_style_mask75.pth](https://github.com/FengheTan9/HySparK/blob/main/ckpt/hybird_ct_pretrained_timm_style_mask75.pth) |
+
+
+
+
+
 ## Getting Started
 
 
