@@ -55,8 +55,8 @@
 
 ## News
 
+- **Code and weight now are released 😎 !**
 - **HySparK is accepted by <u>MICCAI 2024 (Early accept)</u> !**
-
 - **Code will be released soon !** 😘
 
 
@@ -64,8 +64,8 @@
 ## TODOs
 
 - [x] Paper released
-- [ ] Code released
-- [ ] Weight released
+- [x] Code released
+- [x] Weight released
 
 
 
@@ -188,14 +188,13 @@ This code base uses helper functions from [SparK](https://github.com/keyu-tian/S
 If the code, paper and weights help your research, please cite:
 
 ```
-@misc{tang2024hysparkhybridsparsemasking,
-      title={HySparK: Hybrid Sparse Masking for Large Scale Medical Image Pre-Training}, 
-      author={Fenghe Tang and Ronghao Xu and Qingsong Yao and Xueming Fu and Quan Quan and Heqin Zhu and Zaiyi Liu and S. Kevin Zhou},
-      year={2024},
-      eprint={2408.05815},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV},
-      url={https://arxiv.org/abs/2408.05815}, 
+@inproceedings{tang2024hyspark,
+  title={Hyspark: Hybrid sparse masking for large scale medical image pre-training},
+  author={Tang, Fenghe and Xu, Ronghao and Yao, Qingsong and Fu, Xueming and Quan, Quan and Zhu, Heqin and Liu, Zaiyi and Zhou, S Kevin},
+  booktitle={International Conference on Medical Image Computing and Computer-Assisted Intervention},
+  pages={330--340},
+  year={2024},
+  organization={Springer}
 }
 ```
 
